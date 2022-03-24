@@ -1,0 +1,46 @@
+body
+{
+  font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Pacifico', cursive;
+}
+#Home{
+  margin-top: 40px;
+}
+#Diversity
+{
+  margin-top: 40px;
+}
+#nav-bar ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#header
+{
+  position: fixed;
+  background-color: white;
+
+}
+#social-acount
+{
+  display: flex;
+  background-color: gray;
+  margin: 30px;
+
+
+}
+.acount
+{
+  padding: 15px;
+  border:1px solid;
+  background: blue;
+}
+<style media="screen">
+@media  (max-width=400px){
+  .subtitle
+  {
+    font-size: 5px;
+  }
+</style>
