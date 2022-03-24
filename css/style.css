@@ -1,19 +1,23 @@
-body {
+* {
+  margin-top: 0;
   font-family: 'DM Sans', sans-serif;
 }
 
-#header {
+header
+{
+  display: flex;
   position: fixed;
-  margin: 0;
+  margin-top:0;
+  width:100%;
   background-color: silver;
   align-items: center;
   justify-content: center;
+
 }
 
-#nav-bar ul {
+.nav-bar ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   }
-
-
+  
